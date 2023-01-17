@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.product-root {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.product-img {
+  width: 120px;
+}
+
+.product-listing {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+  background-color: rgb(57, 54, 54);
+  padding: 30px 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.account-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-form {
+  width: 400px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.product-input-container,
+.login-input-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.product-button-container,
+.login-button-container {
+  text-align: center;
+}
+
+.login-button-container {
+  margin-top: 15px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.account-product-button:hover {
+  background-color: darkblue;
+}
+
+.form-wrapper,
+.login-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.not-found-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.not-found-card {
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found-h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.claim-product-button {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.claim-product-button:hover {
+  background-color: darkblue;
+}
+
+.account-product-button {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.account-product-button:last-of-type {
+  margin-bottom: 10px;
+}
